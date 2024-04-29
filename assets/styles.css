@@ -6,7 +6,7 @@
 
 :root {
     --border: 2px solid rgba(128,128,128,0.75);
-    --dotted-underline: 2px dashed grey; 
+    --section-background-color:rgba(128,128,128, 0.5);
 }
 
 html {
@@ -48,7 +48,7 @@ header::after {
     display:block;
     height: 1px;
     width:100%;
-    background-color:rgba(128,128,128, 0.5);
+    background-color: var(--section-background-color);
 
 }
 
@@ -66,6 +66,39 @@ header::after {
     margin:20px 0;
 }
 
+.about::after {
+    content: "";
+    display:block;
+    height: 1px;
+    width:100%;
+    background-color: var(--section-background-color);
+
+}
+
 summary {
     margin:10px 0;
+}
+
+article {
+    padding:20px 40px;
+}
+
+article p {
+    text-align: center;
+}
+th,td {
+    width:100px;
+    text-align: center;
+    border:1px solid grey;
+    padding:5px;
+}
+
+caption {
+    border:1px solid grey;
+    font-size:20px;
+    font-weight:600;
+}
+
+tfoot {
+    text-align: center;
 }
