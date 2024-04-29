@@ -21,7 +21,7 @@ body {
 
 .container {
     width: 45%;
-    margin:20px;
+    margin-top:20px;
     border-right: var(--border);
     border-left: var(--border);
     border-bottom:var(--border);
