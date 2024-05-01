@@ -79,11 +79,23 @@ summary {
     margin:10px 0;
 }
 
-article {
+.menu {
     padding:20px 40px;
 }
 
-article p {
+.menu > * {
+    margin:10px 0;
+}
+
+.menu::after {
+    content: "";
+    display:block;
+    height:1px;
+    width:100%;
+    background-color: var(--section-background-color);
+}
+
+.menu p {
     text-align: center;
 }
 th,td {
@@ -100,5 +112,9 @@ caption {
 }
 
 tfoot {
+    text-align: center;
+}
+
+.footer {
     text-align: center;
 }
