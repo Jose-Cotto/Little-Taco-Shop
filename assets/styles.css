@@ -131,3 +131,14 @@ dl > * {
 dd {
     padding-left:10px;
 }
+
+.img-container {
+    width:500px;
+    height:300px;
+    margin:15px auto;
+}
+
+.horizontal {
+    height:100%;
+    width:100%;
+}
