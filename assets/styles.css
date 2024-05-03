@@ -101,7 +101,8 @@ summary {
     background-color: var(--section-background-color);
 }
 
-.menu p {
+.menu p, 
+.location-container p{
     text-align: center;
 }
 th,td {
@@ -147,7 +148,9 @@ fieldset {
     border-radius: 5px;
 }
 .contact-title, 
-fieldset {
+fieldset, 
+.location-title, 
+.address-container {
     padding: 0 40px;
 }
 
@@ -183,4 +186,11 @@ textarea{
 }
 .textarea-container {
     margin:20px 0;
+}
+
+.address-container {
+    margin:20px 0;
+}
+.address-container > * {
+    margin:10px;
 }
