@@ -12,7 +12,7 @@
 	</head>
 	<body>
 		<div class="container">
-			<header>
+			<header class="contact-header">
 				<h1 class="title">Contact Us</h1>
 				<nav>
 					<ul>
@@ -25,16 +25,61 @@
 						<li><a href="/index.html#our-menu">Our Menu</a></li>
 					</ul>
 					<ul>
-						<li><a href="#">Contact Us</a></li>
+						<li><a href="./hours.html#store-hours">Store Hours</a></li>
 					</ul>
 				</nav>
 				<figure>
 					<img
-						src="/assets/images/store-hours.png.jpg"
-						alt="A plate of tacos" />
-					<figcaption>a plate of our delicious tacos!</figcaption>
+						src="/assets/images/contact.png.jpg"
+						alt="A table full of tacos, chips, and salsa!" />
+					<figcaption>A full table at Little Taco Shop!</figcaption>
 				</figure>
 			</header>
+			<h2 class="contact-title">Our Contact Form</h2>
+			<form>
+				<fieldset>
+					<legend>Send Us A message</legend>
+					<label for="name"
+						>Name:
+						<input
+							type="text"
+							id="name"
+							name="name"
+							placeholder="Your name"
+							size="25"
+					/></label>
+					<br />
+					<label for="email"
+						>Email:
+						<input
+							type="text"
+							id="email"
+							name="name"
+							placeholder="Your Email"
+							size="25"
+					/></label>
+					<br />
+					<div class="textarea-container">
+						<label
+							for="message"
+							class="message-label"
+							>Your Message:</label
+						>
+						<br />
+						<textarea
+							name="message"
+							id="message"
+							cols="30"
+							rows="10"></textarea>
+					</div>
+				</fieldset>
+				<section class="buttons">
+					<div class="button-container">
+						<button>Send</button>
+						<button>Reset</button>
+					</div>
+				</section>
+			</form>
 		</div>
 	</body>
 </html>

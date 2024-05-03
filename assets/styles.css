@@ -46,7 +46,7 @@ header > * {
     margin:20px 0;
 }
 
-header::after {
+.style-header::after {
     content: "";
     display:block;
     height: 1px;
@@ -141,4 +141,46 @@ dd {
 .horizontal {
     height:100%;
     width:100%;
+}
+
+fieldset {
+    border-radius: 5px;
+}
+.contact-title, 
+fieldset {
+    padding: 0 40px;
+}
+
+
+fieldset input {
+    margin:10px 0;
+    height:30px;
+    border-radius: 5px;
+    padding:0 10px;
+}
+
+form {
+    margin: 20px 0;
+    padding: 0 40px;
+}
+
+.message-label {
+    margin-top:60px;
+}
+
+.button-container {
+    padding: 0 40px;
+}
+
+.button-container button {
+    margin:0 5px;
+    padding:5px;
+}
+
+textarea{
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.textarea-container {
+    margin:20px 0;
 }
